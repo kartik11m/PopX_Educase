@@ -27,7 +27,7 @@ const Login = () => {
                                     </label>
                                 </div>
                                 <Link to="/profile">
-                                    <button className="w-full rounded-lg bg-[#CBCBCB] py-2 text-[16px] text-white font-medium hover:bg-violet-500 transition mb-3">
+                                    <button className="w-full rounded-lg bg-[#CBCBCB] py-2 text-[16px] text-white font-medium hover:bg-violet-500 transition mb-3 cursor-pointer">
                                         Login
                                     </button> 
                                 </Link>

@@ -13,12 +13,12 @@ const Landing = () => {
                         <p className='mb-6 text-[#919191] font-normal text-[18px] leading-[26px] '>Lorem, ipsum dolor sit amet consectetur adipisicing elit. reprehenderit?</p>
                         <div>
                             <Link to="/signup">
-                                <button className="w-full rounded-lg bg-[#6C25FF] py-2 text-[#FFFFFF] text-[16px] font-medium hover:bg-violet-800 transition mb-3">
+                                <button className="w-full rounded-lg bg-[#6C25FF] py-2 text-[#FFFFFF] text-[16px] font-medium hover:bg-violet-800 transition mb-3 cursor-pointer">
                                     Create Account
                                 </button>
                             </Link>
                             <Link to="/login">
-                                <button className="w-full rounded-lg bg-[#6C25FF4B] py-2 text-violet-900 font-medium text-[16px] hover:bg-blue-100 transition">
+                                <button className="w-full rounded-lg bg-[#6C25FF4B] py-2 text-violet-900 font-medium text-[16px] hover:bg-blue-100 transition cursor-pointer">
                                     Already Registered?Login
                                 </button>
                             </Link>

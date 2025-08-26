@@ -61,9 +61,10 @@ const Signup = () => {
                         </div>
                     </div>
                     <Link to="/profile">
-                        <button className="w-full text-[16px] rounded-lg bg-[#6C25FF] py-2 text-white font-medium hover:bg-violet-800 transition mb-3">
+                        <button className="w-full text-[16px] rounded-lg bg-[#6C25FF] py-2 text-white font-medium hover:bg-violet-800 transition mb-3 cursor-pointer">
                             Create Account
-                        </button> </Link>
+                        </button> 
+                    </Link>
                 </div>
             </div>
         </div>
