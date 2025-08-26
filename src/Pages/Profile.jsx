@@ -5,7 +5,7 @@ const Profile = () => {
   return (
         <div className="flex flex-col h-[812px] items-center justify-center bg-white">
             <div className='flex items-center bg-white w-[375px] h-20 border border-[#0000001e]'>
-                <p className='ms-3 font-medium text-[18px] text-[#1D2226]'>Account Setting</p>
+                <p className='ms-3 text-[18px] text-[#1D2226]'>Account Setting</p>
             </div>
             <div className="flex h-screen w-[375px] flex-col gap-6 border border-[#0000000b] bg-[#F7F8F9] shadow-sm p-6">
                 <div className="relative flex items-start gap-5">
