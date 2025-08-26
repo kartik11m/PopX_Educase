@@ -8,22 +8,22 @@ const Login = () => {
                 <div className="flex flex-col justify-between  h-full w-full">
                     <div>
                         <h1 className="text-[28px] font-medium text-[#1D2226] mb-[14px]">
-                            Signin to your PopX Account
+                            Signin to your <br />PopX Account
                         </h1>
-                         <p className='mb-[33px] font-normal text-[18px] text-[#1D2226]'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, reprehenderit?</p>
+                         <p className='mb-[33px] font-normal text-[18px] text-[#919191]'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, reprehenderit?</p>
                             <div >
-                                <div class="relative w-full mb-[23px]">
-                                    <input id="email-input" type="email" placeholder='Email' class="w-full px-4 py-3 border border-[#CBCBCB] rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-gray-500 focus:border-gray-500" required/>
-                                    <label for="full-name-input" class="absolute left-3 -top-2.5 px-1 text-[13px] bg-[#F7F8F9]">
-                                        <span class="text-[#6C25FF]">Email Address</span>
-                                        <span class="text-[#DD4A3D]">*</span>
+                                <div className="relative w-full mb-[23px]">
+                                    <input id="email-input" type="email" placeholder='Email' className="w-full px-4 py-3 border border-[#CBCBCB] rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-gray-500 focus:border-gray-500" required/>
+                                    <label for="full-name-input" className="absolute left-3 -top-2.5 px-1 text-[13px] bg-[#F7F8F9]">
+                                        <span className="text-[#6C25FF]">Email Address</span>
+                                        <span className="text-[#DD4A3D]">*</span>
                                     </label>
                                 </div>
-                                <div class="relative w-full mb-[14px]">
-                                    <input id="pass-input" type="password" placeholder='Password' class="w-full px-4 py-3 border border-[#CBCBCB] rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-gray-500 focus:border-gray-500" required/>
-                                    <label for="full-name-input" class="absolute left-3 -top-2.5 px-1 text-[13px] bg-[#F7F8F9]">
-                                        <span class="text-[#6C25FF]">Password</span>
-                                        <span class="text-[#DD4A3D]">*</span>
+                                <div className="relative w-full mb-[14px]">
+                                    <input id="pass-input" type="password" placeholder='Password' className="w-full px-4 py-3 border border-[#CBCBCB] rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-gray-500 focus:border-gray-500" required/>
+                                    <label for="full-name-input" className="absolute left-3 -top-2.5 px-1 text-[13px] bg-[#F7F8F9]">
+                                        <span className="text-[#6C25FF]">Password</span>
+                                        <span className="text-[#DD4A3D]">*</span>
                                     </label>
                                 </div>
                                 <Link to="/profile">
