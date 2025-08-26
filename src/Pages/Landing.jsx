@@ -10,7 +10,7 @@ const Landing = () => {
                         <h1 className="text-[28px] font-medium leading-[17px] text-[#1D2226] mb-2.5">
                             Welcome to PopX
                         </h1>
-                        <p className='mb-6 text-[#1D2226] font-normal text-[18px] leading-[26px] '>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, reprehenderit?</p>
+                        <p className='mb-6 text-[#919191] font-normal text-[18px] leading-[26px] '>Lorem, ipsum dolor sit amet consectetur adipisicing elit. reprehenderit?</p>
                         <div>
                             <Link to="/signup">
                                 <button className="w-full rounded-lg bg-[#6C25FF] py-2 text-[#FFFFFF] text-[16px] font-medium hover:bg-violet-800 transition mb-3">
